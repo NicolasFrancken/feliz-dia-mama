@@ -73,6 +73,11 @@
     text-align: left;
     font-size: 9px;
   }
+
+  .envelope > .letter > .text > p {
+    margin: 0;
+  }
+
   .heart {
     position: absolute;
     top: 63%;
