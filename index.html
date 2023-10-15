@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz día Mamá</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Feliz día Mamá</strong>
+                        <p>
+                            Feliz día a la mejor mamá que me pudo tocar. Gracias por siempre
+                            estar ahí para todos nosotros, gracias por siempre ir al super, a
+                            la verdulería o a la fiambreria cuando terminas de trabajar, gracias por hacernos la
+                            comida todas las noches, por hacer las ensaladas para todos y por
+                            siempre limpiar todo. Agradezco mucho todo lo que haces por
+                            nosotros. Gracias por siempre aconsejarme y ayudarme.
+                            Te quiero mucho y enserio te digo que sos la mejor mamá del mundo, te
+                            queremos mucho mucho mucho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
