@@ -64,7 +64,7 @@
     text-align: center;
     transition: all 1s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 50px 10px;
   }
   
   .envelope > .letter > .text {
@@ -106,7 +106,7 @@
     z-index: 0;
   }
   .flap > .envelope > .letter {
-    bottom: 260px;
+    bottom: 250px;
     transform: scale(1.5);
     transition-delay: 1s;
   }
