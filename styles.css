@@ -106,7 +106,7 @@
     z-index: 0;
   }
   .flap > .envelope > .letter {
-    bottom: 220px;
+    bottom: 240px;
     transform: scale(1.5);
     transition-delay: 1s;
   }
@@ -117,6 +117,6 @@
 
   @media only screen and (max-width: 700px) {
     .heart{
-        top: 62%;
+        top: 65%;
     }
   }
